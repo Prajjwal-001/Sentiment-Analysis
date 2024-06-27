@@ -25,7 +25,8 @@ Code:
   pip install pandas numpy nltk spacy vaderSentiment jupyter
   python -m spacy download en_core_web_sm
 
-Project Structure
+Project Structure:
+
 The project structure is as follows:
 
 ├── data
@@ -39,17 +40,24 @@ The project structure is as follows:
 ├── README.md
 
 data/: Directory containing the dataset.
+
 notebooks/: Directory containing the Jupyter Notebook with the project code.
+
 README.md: This file.
 
-Results
+Results:
+
 The results section of the notebook demonstrates the performance improvements achieved through lemmatization and the use of spaCy. Sentiment scores for the dataset are calculated and visualized, showing the effectiveness of the VADER model with enhanced preprocessing.
 
-Conclusion
+Conclusion:
+
 This project showcases an efficient approach to sentiment analysis by integrating the VADER model with lemmatization using spaCy. The enhancements lead to better performance and faster processing times, making it suitable for large-scale text analysis tasks.
 
 Acknowledgements
 VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text (https://github.com/cjhutto/vaderSentiment)
+
 spaCy: Industrial-Strength Natural Language Processing (https://spacy.io/)
+
 Kaggle Dataset: Sentiment Analysis (https://www.kaggle.com/code/robikscube/sentiment-analysis-python-youtube-tutorial/input.)
+
 Feel free to contribute to this project by submitting issues or pull requests. Your feedback is highly appreciated!
