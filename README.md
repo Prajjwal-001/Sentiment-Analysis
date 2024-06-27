@@ -27,6 +27,7 @@ Code:
 
 Project Structure
 The project structure is as follows:
+
 ├── data
 
 │   └── sentiment_analysis_dataset.csv
